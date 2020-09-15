@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <Header/>
+      <Header v-bind:URL="URL" />
       hello
 
       
@@ -20,6 +20,13 @@ export default {
   components: {
     Header,
     Footer
+  },
+  data:function(){
+    return {
+      loggedIn: false,
+      token: '',
+      URL: 'http://localhost:8000'
+    }
   }
   
 }

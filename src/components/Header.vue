@@ -3,10 +3,7 @@
     <b-navbar>
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
-          <img
-            src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-            alt="Lightweight UI components for Vue.js based on Bulma"
-          />
+          TO-DO's
         </b-navbar-item>
       </template>
       <template slot="start">
@@ -32,9 +29,7 @@
             <a class="button is-primary">
               <strong>Sign up</strong>
             </a>
-            <a class="button is-light">
-              Log in
-            </a>
+            <router-link to="/login" v-bind:URL="URL">Log in</router-link>
           </div>
         </b-navbar-item>
       </template>
