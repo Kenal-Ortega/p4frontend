@@ -30,10 +30,13 @@ name: "Login",
         }),
       })
       .then(response => response.json())
-      .then(data => console.log(data));
-    }
-  }
-}
+      .then(data => {
+        console.log(data)
+        this.$emit('loggedIn', data)
+      });
+    },
+  },
+};
 </script>
 
 <style scoped>
