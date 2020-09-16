@@ -1,7 +1,16 @@
 <template>
-  <div>
-    <input class="input is-primary" type="text" v-model="username"/>
-    <input class="input is-primary" type="password" v-model="password"/>
+  <div class="login">
+    <b-field label="Username"
+            type="is-success"
+            message="Please enter username">
+            <b-input v-model="username"></b-input>
+        </b-field>
+
+        <b-field label="Password"
+            type="is-warning"
+            :message="['Please enter password']">
+            <b-input type="password" v-model="password" password-reveal></b-input>
+        </b-field>
     <button class="button is-primary" @click="handleLogin">Log In</button>
 
   </div>
@@ -19,7 +28,7 @@ name: "Login",
   },
   methods: {
     handleLogin: function(){
-      fetch('http://localhost:8000/auth/users/login/', {
+      fetch(this.$route.query.URL + "/auth/users/login/", {
         method: 'post',
         headers: {
           "Content-Type":"application/json"
@@ -40,5 +49,8 @@ name: "Login",
 </script>
 
 <style scoped>
-
+.login {
+  width: 70%;
+  margin: 10px auto;
+}
 </style>

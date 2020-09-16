@@ -1,11 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <Header v-bind:URL="URL"/>
-      hello
-
-      
-    </div>
+      <Header v-bind:URL="URL" v-bind:loggedIn="loggedIn" @logout="logout" />
     <router-view @loggedIn="login($event)"/>
     <Footer/>
   </div>
@@ -32,12 +27,16 @@ export default {
     login: function(event){
       console.log('event heard')
       this.loggedIn = true
-      this.tokens = event
-      this.$router.push('/')
+      this.tokens = event.token
+      this.$router.push({ path: 'Main', query: { tokens: this.tokens, URL: this.URL }
+      });
+    },
+    logout: function(){
+      this.loggedIn = false
+      this.tokens = {};
     }
-  }
-  
-}
+  },
+};
 </script>
 
 <style>
