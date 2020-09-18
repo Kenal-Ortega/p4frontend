@@ -122,6 +122,6 @@ export default {
 div.main {
   width: 70%;
   min-width: 300px;
-  margin: 10px auto;
+  margin: 10px auto 200px auto;
 }
 </style>

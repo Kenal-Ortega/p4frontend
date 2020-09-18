@@ -21,7 +21,7 @@ export default {
 
 <style>
 footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     overflow:hidden;

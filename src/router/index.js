@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Main from '../views/Main.vue'
+import Signup from '../views/Signup.vue'
 
 Vue.use(VueRouter)
 
@@ -18,10 +19,17 @@ Vue.use(VueRouter)
     component: Login,
       
   },
-  {
+    {
     path: '/main',
     name: 'Main',
     component: Main
+  },
+    {
+    path: '/signup',
+    name: 'Signup',
+    component: Signup,
+    props: true,
+
   },
 ]
 

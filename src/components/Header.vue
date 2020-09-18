@@ -26,9 +26,10 @@
       <template slot="end">
         <b-navbar-item tag="div">
           <div class="buttons">
-            <a class="button is-primary">
-              <strong>Sign up</strong>
-            </a>
+
+            <router-link :to="{name: 'Signup', query: {URL: this.URL}}" v-bind:URL="URL" v-if="!signedUp">
+              <b-button id="signup_btn" type="is-primary">Sign-up</b-button></router-link>
+
             <router-link :to="{ name: 'Login', query: { URL: this.URL }}" v-bind:URL="URL" v-if="!loggedIn">
               <button class="button is-success">Log in</button></router-link>
             <button v-if="loggedIn" class="button is-primary" @click="logout">Logout</button>
@@ -42,7 +43,7 @@
 <script>
 export default {
   name: "Header",
-  props: ['URL', 'loggedIn'],
+  props: ['URL', 'loggedIn', 'signedUp'],
   methods: {
     logout: function(){
       this.$emit('logout')
