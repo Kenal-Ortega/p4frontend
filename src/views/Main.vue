@@ -20,6 +20,7 @@
 
     <ul>
       <li v-for="todo of todos" v-bind:key="todo.id">
+        <b-message title="Current Task's To-Do" aria-close-label="Close message">
         {{todo.task}}
           <button v-bind:id="todo.id"
                   class="button is-danger is-outlined"
@@ -28,6 +29,7 @@
         <button v-bind:id="todo.id"
                 class="button is-success is-outlined"
                 @click="() => {editSelect(todo.id, todo.task)}">Edit</button>
+          </b-message>
       </li>
     </ul>
   </div>
