@@ -20,7 +20,7 @@ export default {
     return {
       loggedIn: false,
       tokens: {},
-      URL: 'http://localhost:8000'
+      URL: 'https://p4backend93.herokuapp.com'
     }
   },
   methods: {
@@ -34,6 +34,7 @@ export default {
     logout: function(){
       this.loggedIn = false
       this.tokens = {};
+      this.$router.push('/')
     }
   },
 };
