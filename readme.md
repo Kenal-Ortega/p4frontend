@@ -41,7 +41,7 @@ This Template includes
 |Day 1| Deploy on netlify | Complete
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 2| Design landing page with bootstrap grid gallery | Incomplete
+|Day 2| Design landing page with buefy | Incomplete
 |Day 3| Design individual review view | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches and Present | Incomplete
@@ -78,7 +78,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ## Time/Priority Matrix 
 
-[Time and Priority Matrix]()
+[Time and Priority Matrix](https://res.cloudinary.com/dlcjnygpy/image/upload/v1600688743/Screen_Shot_2020-09-21_at_7.41.27_AM_haaaxe.png)
 
 #### MVP
 
@@ -103,7 +103,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | --- | :---: |  :---: | :---: | :---: |
 | Deploy | H | .5hr | hr | hr|
 | Make app responsive | H | 5hr | hr | hr|
-| Design with bootstrap | H | 10H | hr | hr|
+| Design with buefy | H | 10H | hr | hr|
 | Toggling views for logged-in/not logged-in | H | 3hr | hr | hr|
 | Create-a-to-do post form | H | 5hrs | hrs | hrs |
 | Total | H | 23.5hrs| hrs | hrs |
@@ -117,8 +117,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ## Additional Libraries
 - Vue
-- Quill
-- Bootstrap
+- Buefy
 
 ## Code Snippet
 
