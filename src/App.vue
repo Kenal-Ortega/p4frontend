@@ -20,7 +20,7 @@ export default {
     return {
       loggedIn: false,
       tokens: {},
-      URL: 'https://p4backend93.herokuapp.com/'
+      URL: 'https://p4backend93.herokuapp.com'
     }
   },
   methods: {
