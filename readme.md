@@ -77,8 +77,9 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - [To-Do](https://wireframe.cc/pro/edit/374869)
 
 [Desktop]
-- [Landing Page]()
-
+- [Landing Page](https://wireframe.cc/pro/edit/374869)
+- [Login](https://wireframe.cc/pro/edit/374869)
+- [To-Do](https://wireframe.cc/pro/edit/374869)
 
 ## Time/Priority Matrix 
 
