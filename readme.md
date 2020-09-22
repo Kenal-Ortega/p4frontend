@@ -40,10 +40,10 @@ This Template includes
 |---|---| ---|
 |Day 1| Deploy on netlify | Complete
 |Day 1| Project Description | Complete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 2| Design landing page with buefy | Incomplete
-|Day 3| Design individual review view | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 2| Design landing page with buefy | Complete
+|Day 3| Design individual review view | Complete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 
@@ -106,34 +106,23 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 #### MVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Deploy | H | .5hr | hr | hr|
-| Make app responsive | H | 5hr | hr | hr|
-| Design with buefy | H | 10H | hr | hr|
-| Toggling views for logged-in/not logged-in | H | 3hr | hr | hr|
-| Create-a-to-do post form | H | 5hrs | hrs | hrs |
-| Total | H | 23.5hrs| hrs | hrs |
+| Deploy | H | .5hr | 1hr | 1hr|
+| Make app responsive | H | 5hr | 8hr | 8hr|
+| Design with buefy | H | 10H | 10hr | 10hr|
+| Toggling views for logged-in/not logged-in | H | 3hr | 3hr | 3hr|
+| Create-a-to-do post form | H | 5hrs | 5hrs | 5hrs |
+| Total | H | 23.5hrs| 27hrs | 27hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create About Project Page | L | 3hr | hr | hr|
-| Sorting to-do's | L | 3hr | hr | hr|
-| Total | H | 6hrs| hrs | hrs |
+| Create About Project Page | L | 3hr | N/A | N/A|
+| Sorting to-do's | L | 3hr | N/A | N/A|
+| Total | H | 6hrs| N/A | N/A |
 
 ## Additional Libraries
 - Vue
 - Buefy
 
-## Code Snippet
 
-BLANK 
-
-```
-BLANK
-```
-
-## Issues and Resolutions
-
-**ERROR**:                               
-**RESOLUTION**:
 
